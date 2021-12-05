@@ -1,0 +1,59 @@
+/*import fonts form fonts.css file*/
+@import url(./fonts.css);
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font-family: "brush script mt";
+}
+
+/*start navigation*/
+.header_area .main-menu .nav-item .nav-link {
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+/*CSS Variables*/
+@import url(./partials/variables.css);
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/*start navigation*/
+
+.img-fluid {
+  float: center;
+  margin: -90px;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  padding-bottom: 0rem;
+  margin: auto;
+  background-color: #fae4ff;
+}
+
+body {
+  min-height: 2000px;
+}
+
+.row {
+  padding-top: 2rem;
+}
+
+#contact {
+  background-color: #fae4ff;
+}
+
+@media screen and (max-width: 922px) {
+  .jumbotron {
+    width: 100%;
+  }
+}
